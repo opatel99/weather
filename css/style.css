@@ -1,0 +1,59 @@
+body {
+    color: white!important;
+    margin: 0;
+    background-color: #3DBDC8;
+}
+.container {
+    max-width: 95% !important;
+    width: auto
+}
+.row {
+    margin-bottom: -50px;
+}
+.card-image.center {
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    vertical-align: middle;
+    padding-top: 30px;
+}
+.hour-icon {
+    margin-top: 30px;
+    color: white;
+}
+.card {
+    background-color: #F2395B;
+    padding-bottom: 50px;
+}
+#current-icon {
+    font-size: 1.5em;
+}
+#city {
+    font-size: 3em;
+    font-style: bold;
+}
+#temperature,
+#summary {
+    display: inline;
+}
+.no-js #loader {
+    display: none;
+}
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(' https://ssl.gstatic.com/s2/oz/images/notifications/spinner_64_3f4fa14117c586c002a98cd7c5fbb2d3.gif') center no-repeat #fff;
+}
+#currentInfo {
+    margin-bottom: 30px;
+}
